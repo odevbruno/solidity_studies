@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1 - Lesson.sol": "Lesson1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1 - Lesson.sol": {
+			"keccak256": "0x9dcef07efc9bdde2638acf5b6fbb0811f38b5a3c792f9f46f0745e6a0d2f0703",
+			"urls": [
+				"bzz-raw://3fe72f719f9e748102ee06424875758276f4cf37e9fb80471306d76ad9c5e4a8",
+				"dweb:/ipfs/Qme19VeBTrKbxbLZefVf9Kh9y2qJigqLCnK9ivcq14e8fq"
+			]
+		}
+	},
+	"version": 1
+}
